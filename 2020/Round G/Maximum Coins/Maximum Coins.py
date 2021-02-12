@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def diagonal_sum(matrix):
     length = len(matrix[0])
     fin = 0

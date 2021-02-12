@@ -18,24 +18,20 @@ and y is the number of different lucky fragments in the text of this test case.
 
 **Limits**
 
-Memory limit: 1 GB.
-
-1 ≤ T ≤ 100.
-
+Memory limit: 1 GB.<br/>
+1 ≤ T ≤ 100.<br/>
 S consists of upper-case English letters only.
 
 
 Test Set 1
 
-Time limit: 20 seconds.
-
+Time limit: 20 seconds.<br/>
 1 ≤ |S| ≤ 1000.
 
 
 Test Set 2
 
-Time limit: 40 seconds.
-
+Time limit: 40 seconds.<br/>
 1 ≤ |S| ≤ 105.
 
 **Sample**
@@ -43,20 +39,15 @@ Time limit: 40 seconds.
 *Input*
  
 3
-
-AKICKSTARTPROBLEMNAMEDKICKSTART
-
-STARTUNLUCKYKICK
-
-KICKXKICKXSTARTXKICKXSTART
+AKICKSTARTPROBLEMNAMEDKICKSTART<br/>
+STARTUNLUCKYKICK<br/>
+KICKXKICKXSTARTXKICKXSTART<br/>
 
 
 *Output*
 
-Case #1: 3
-
-Case #2: 0
-
+Case #1: 3<br/>
+Case #2: 0<br/>
 Case #3: 5
 
   

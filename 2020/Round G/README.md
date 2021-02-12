@@ -4,6 +4,6 @@ Submissions' Results
 
 |                  | Test Set 1  | Test Set 2 | Test Set 3 |
 | ---------------- | ----------- | ---------- | ---------- |
-| Kick_Start       |     ✓     |    ✓   |           |
-| Maximum Coins    |     ✓      |    ✓     |          |
-| Combination Lock |     ✓      |    ✓     |     ✘      |
+| Kick_Start       |     ✔    |    ✔   |           |
+| Maximum Coins    |     ✔      |    ✔     |          |
+| Combination Lock |     ✔      |    ✔    |     ✘      |

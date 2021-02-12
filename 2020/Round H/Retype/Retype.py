@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 nums = sys.stdin.readlines()
 matrix = [[int(num) for num in line.split()] for line in nums]

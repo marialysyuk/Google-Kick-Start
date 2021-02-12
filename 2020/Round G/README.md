@@ -6,4 +6,4 @@ Submissions' Results
 | ---------------- | ----------- | ---------- | ---------- |
 | Kick_Start       |     ✔    |    ✔   |           |
 | Maximum Coins    |     ✔      |    ✔     |          |
-| Combination Lock |     ✔      |    ✔    |     ✘      |
+| Combination Lock |     ✔      |    ✔    |     ✘    |

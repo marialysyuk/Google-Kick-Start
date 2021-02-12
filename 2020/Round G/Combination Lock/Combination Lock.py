@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def combination_lock(maximum, initial):
     result = math.inf
     temp_sum = 0

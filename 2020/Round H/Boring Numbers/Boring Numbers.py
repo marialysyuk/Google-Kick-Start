@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def boring_number(num):
     amount = -1
     for i in range(len(str(num))):

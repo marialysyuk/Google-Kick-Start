@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def amount(arr, limit):
     arr = sorted(arr)
     count = 0
@@ -31,4 +25,3 @@ while i < len(matrix):
     cases += 1
     print("Case #"+str(cases)+": "+str(amount(arr, limit)))
     i += 2
-

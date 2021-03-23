@@ -13,11 +13,11 @@ It is guaranteed that it is possible for Bucket to finish her journey by day D.
 
 **Input**
 
-The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the integer N. The second line contains N integers. The i-th integer is Hi.
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the two integers N and D. Then, another line follows containing N integers, the i-th one is X\_i.
 
 **Output**
 
-For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the number of peaks in Li's bike tour.
+For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the latest day she could take the first bus, and still finish her journey by day D.
 
 **Limits**
 
@@ -25,38 +25,47 @@ Time limit: 10 seconds per test set.
 
 Memory limit: 1GB.<br/>
 1 ≤ T ≤ 100.<br/>
-1 ≤ Hi ≤ 100.
+1 ≤ Xi ≤ D.<br/>
+1 ≤ N ≤ 1000.<br/>
 
-
+It is guaranteed that it is possible for Bucket to finish her journey by day D.
 
 Test Set 1<br/>
-3 ≤ N ≤ 5.
+1 ≤ D ≤ 100.
 
 Test Set 2<br/>
-3 ≤ N ≤ 100.
+1 ≤ D ≤ 10^12.
 
 **Sample**
 
 *Input*
  
-4<br/>
 3<br/>
-10 20 14<br/>
-4<br/>
-7 7 7 7<br/>
-5<br/>
-10 90 20 90 10<br/>
-3<br/>
-10 3 10<br/>
+3 10<br/>
+3 7 2<br/>
+4 100<br/>
+11 10 5 50<br/>
+1 1
 
 *Output*
 
-Case #1: 1 <br/>
-Case #2: 0 <br/>
-Case #3: 2<br/>
-Case #4: 0 <br/>
+Case #1: 6<br/>
+Case #2: 99<br/>
+Case #3: 1
   
-- In sample case #1, the 2nd checkpoint is a peak.
-- In sample case #2, there are no peaks.
-- In sample case #3, the 2nd and 4th checkpoint are peaks.
-- In sample case #4, there are no peaks.
+In Sample Case #1, there are N = 3 bus routes and Bucket must arrive by day D = 10. She could:
+
+- Take the 1st bus on day 6 (X1 = 3),
+- Take the 2nd bus on day 7 (X2 = 7) and
+- Take the 3rd bus on day 8 (X3 = 2).
+
+In Sample Case #2, there are N = 4 bus routes and Bucket must arrive by day D = 100. She could:
+
+- Take the 1st bus on day 99 (X1 = 11),
+- Take the 2nd bus on day 100 (X2 = 10),
+- Take the 3rd bus on day 100 (X3 = 5) and
+- Take the 4th bus on day 100 (X4 = 50),
+
+In Sample Case #3, there is N = 1 bus route and Bucket must arrive by day D = 1. She could:
+
+- Take the 1st bus on day 1 (X1 = 1).

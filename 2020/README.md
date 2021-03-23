@@ -1,4 +1,4 @@
-Here are presented solutions to some rounds of [Kick Start Competition 2020] (https://codingcompetitions.withgoogle.com/kickstart/archive/2020)
+Here are presented solutions to some rounds of [Kick Start Competition 2020](https://codingcompetitions.withgoogle.com/kickstart/archive/2020)
 
 Solutions presented
 

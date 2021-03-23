@@ -17,7 +17,7 @@ There is also a special instruction X(Y), where X is a number between 2 and 9 in
 - 3(S2(E)) is equivalent to SEESEESEE.
 - EEEE4(N)2(SS) is equivalent to EEEENNNNSSSS.
 
-Since the planet is a torus, the first and last columns are adjacent, so moving east from column 10<sup>9<\sup> will move the rover to column 1 and moving south from row 10<sup>9</sup> will move the rover to row 1. Similarly, moving west from column 1 will move the rover to column 10<sup>9</sup> and moving north from row 1 will move the rover to row 10<sup>9</sup>. Given a program that the robot will execute, determine the final position of the robot after it has finished all its movements.
+Since the planet is a torus, the first and last columns are adjacent, so moving east from column 10<sup>9</sup> will move the rover to column 1 and moving south from row 10<sup>9</sup> will move the rover to row 1. Similarly, moving west from column 1 will move the rover to column 10<sup>9</sup> and moving north from row 1 will move the rover to row 10<sup>9</sup>. Given a program that the robot will execute, determine the final position of the robot after it has finished all its movements.
 
 **Input**
 
@@ -61,7 +61,7 @@ Case #4: 3 999999995
   
 In Sample Case #1, the rover moves three units south, then three units east.
 
-In Sample Case #2, the rover moves one unit north. Since the planet is a torus, this moves it into row 10<sub>9</sup>.
+In Sample Case #2, the rover moves one unit north. Since the planet is a torus, this moves it into row 10<sup>9</sup>.
 
 In Sample Case #3, the program given to the rover is equivalent to NSSSNEEN.
 

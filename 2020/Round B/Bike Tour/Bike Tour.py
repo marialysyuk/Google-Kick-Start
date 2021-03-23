@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def peaks(matrix):
@@ -24,4 +18,3 @@ while i < len(matrix):
     cases += 1
     print("Case #"+str(cases)+": "+str(peaks(matrix[i+1])))
     i += 2
-

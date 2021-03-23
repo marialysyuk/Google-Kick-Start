@@ -34,7 +34,7 @@ Test Set 1<br/>
 1 ≤ D ≤ 100.
 
 Test Set 2<br/>
-1 ≤ D ≤ 10^12.
+1 ≤ D ≤ 10sup>12</sup>
 
 **Sample**
 
@@ -55,17 +55,17 @@ Case #3: 1
   
 In Sample Case #1, there are N = 3 bus routes and Bucket must arrive by day D = 10. She could:
 
-- Take the 1st bus on day 6 (X1 = 3),
-- Take the 2nd bus on day 7 (X2 = 7) and
-- Take the 3rd bus on day 8 (X3 = 2).
+- Take the 1st bus on day 6 (Xsub>1</sub> = 3),
+- Take the 2nd bus on day 7 (Xsub>2</sub> = 7) and
+- Take the 3rd bus on day 8 (Xsub>3</sub> = 2).
 
 In Sample Case #2, there are N = 4 bus routes and Bucket must arrive by day D = 100. She could:
 
-- Take the 1st bus on day 99 (X1 = 11),
-- Take the 2nd bus on day 100 (X2 = 10),
-- Take the 3rd bus on day 100 (X3 = 5) and
-- Take the 4th bus on day 100 (X4 = 50),
+- Take the 1st bus on day 99 (Xsub>1</sub> = 11),
+- Take the 2nd bus on day 100 (Xsub>2</sub> = 10),
+- Take the 3rd bus on day 100 (Xsub>3</sub> = 5) and
+- Take the 4th bus on day 100 (Xsub>4</sub> = 50),
 
 In Sample Case #3, there is N = 1 bus route and Bucket must arrive by day D = 1. She could:
 
-- Take the 1st bus on day 1 (X1 = 1).
+- Take the 1st bus on day 1 (Xsub>1</sub> = 1).

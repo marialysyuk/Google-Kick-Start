@@ -1,3 +1,5 @@
+import sys
+
 def diagonal_sum(matrix):
     length = len(matrix[0])
     fin = 0
@@ -24,9 +26,8 @@ def diagonal_sum(matrix):
         temp = 0
     return fin
     
-import sys
-nums = sys.stdin.readlines()
 
+nums = sys.stdin.readlines()
 matrix = [[int(num) for num in line.split()] for line in nums]
 matrix = matrix[1:]
 i = 0
@@ -42,4 +43,3 @@ while i < len(matrix):
     else:
         print("Case #"+str(cases)+": "+str(temp[0][0]))
     i += j+1
-

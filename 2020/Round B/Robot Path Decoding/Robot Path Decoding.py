@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def robot_path(string):
@@ -69,4 +63,3 @@ while i < len(matrix):
     cases += 1
     print("Case #"+str(cases)+": "+' '.join([str(x) for x in robot_path(matrix[i])]))
     i += 1
-

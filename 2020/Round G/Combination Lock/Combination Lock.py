@@ -1,3 +1,6 @@
+import sys
+import math
+
 def combination_lock(maximum, initial):
     result = math.inf
     temp_sum = 0
@@ -15,11 +18,8 @@ def combination_lock(maximum, initial):
         temp_sum = 0
     return result
     
-import sys
-import math
+
 nums = sys.stdin.readlines()
-
-
 matrix = [[int(num) for num in line.split()] for line in nums]
 matrix = matrix[1:]
 

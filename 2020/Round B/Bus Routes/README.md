@@ -3,9 +3,9 @@ This problem is taken from [here.](https://codingcompetitions.withgoogle.com/kic
 ## Problem
 
 Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in
-the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every X<sub> i </sub> days.
+the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every X<sub>i</sub> days.
 
-More specifically, she can only take the i-th bus on day X\_i, 2X\_i, 3X\_i and so on. Since the buses are very fast, she can take multiple buses on the same day.
+More specifically, she can only take the i-th bus on day X<sub>i</sub>, 2X<sub>i</sub>, 3X<sub>i</sub> and so on. Since the buses are very fast, she can take multiple buses on the same day.
 
 Bucket must finish her journey by day D, but she would like to start the journey as late as possible. What is the latest day she could take the first bus, and still finish her journey by day D?
 
@@ -13,7 +13,7 @@ It is guaranteed that it is possible for Bucket to finish her journey by day D.
 
 **Input**
 
-The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the two integers N and D. Then, another line follows containing N integers, the i-th one is X\_i.
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the two integers N and D. Then, another line follows containing N integers, the i-th one is X<sub>i</sub>.
 
 **Output**
 
@@ -25,7 +25,7 @@ Time limit: 10 seconds per test set.
 
 Memory limit: 1GB.<br/>
 1 ≤ T ≤ 100.<br/>
-1 ≤ Xi ≤ D.<br/>
+1 ≤ X<sub>i</sub> ≤ D.<br/>
 1 ≤ N ≤ 1000.<br/>
 
 It is guaranteed that it is possible for Bucket to finish her journey by day D.

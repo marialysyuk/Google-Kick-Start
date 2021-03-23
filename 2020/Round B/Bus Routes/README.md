@@ -3,7 +3,7 @@ This problem is taken from [here.](https://codingcompetitions.withgoogle.com/kic
 ## Problem
 
 Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in
-the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every X\_i days.
+the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every X<sub> i </sub> days.
 
 More specifically, she can only take the i-th bus on day X\_i, 2X\_i, 3X\_i and so on. Since the buses are very fast, she can take multiple buses on the same day.
 

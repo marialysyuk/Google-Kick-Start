@@ -2,7 +2,7 @@ This problem is taken from [here.](https://codingcompetitions.withgoogle.com/kic
 
 ## Problem
 
-Li has planned a bike tour through the mountains of Switzerland. His tour consists of N checkpoints, numbered from 1 to N in the order he will visit them. The i-th checkpoint has a height of Hi.
+Li has planned a bike tour through the mountains of Switzerland. His tour consists of N checkpoints, numbered from 1 to N in the order he will visit them. The i-th checkpoint has a height of H<sub>i</sub>.
 
 A checkpoint is a peak if:
 
@@ -25,7 +25,7 @@ Time limit: 10 seconds per test set.
 
 Memory limit: 1GB.<br/>
 1 ≤ T ≤ 100.<br/>
-1 ≤ Hi ≤ 100.
+1 ≤ H<sub>i</sub> ≤ 100.
 
 
 

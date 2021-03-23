@@ -16,7 +16,7 @@ The first line of the input gives the number of test cases, T. T test cases foll
 
 The first line of each test case contains the two integers W and N.
 
-The second line contains W integers. The i-th integer is Xi.
+The second line contains W integers. The i-th integer is X<sub>i</sub>.
 
 **Output**
 
@@ -28,7 +28,7 @@ Time limit: 40 seconds per test set.
 
 Memory limit: 1GB.<br/>
 1 ≤ T ≤ 100.<br/>
-1 ≤ Xi ≤ N.
+1 ≤ X<sub>i</sub> ≤ N.
 
 Test Set 1<br/>
 1 ≤ W ≤ 1000.<br/>

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def start_day(schedule, target):
@@ -22,4 +16,3 @@ while i < len(matrix):
     cases += 1
     print("Case #"+str(cases)+": "+str(start_day(matrix[i+1], target)))
     i += 2
-

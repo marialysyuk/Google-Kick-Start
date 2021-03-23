@@ -2,7 +2,7 @@ This problem is taken from [here.](https://codingcompetitions.withgoogle.com/kic
 
 ## Problem
 
-Your country's space agency has just landed a rover on a new planet, which can be thought of as a grid of squares containing 10<sup>9<\sup> columns (numbered starting from 1 from west to east) and 10<sup>9<\sup> rows (numbered starting from 1 from north to south). Let (w, h) denote the square in the w-th column and the h-th row. The rover begins on the square (1, 1).
+Your country's space agency has just landed a rover on a new planet, which can be thought of as a grid of squares containing 10<sup>9</sup> columns (numbered starting from 1 from west to east) and 10<sup>9</sup> rows (numbered starting from 1 from north to south). Let (w, h) denote the square in the w-th column and the h-th row. The rover begins on the square (1, 1).
   
 The rover can be maneuvered around on the surface of the planet by sending it a program, which is a string of characters representing movements in the four cardinal directions. The robot executes each character of the string in order:
 
@@ -17,7 +17,7 @@ There is also a special instruction X(Y), where X is a number between 2 and 9 in
 - 3(S2(E)) is equivalent to SEESEESEE.
 - EEEE4(N)2(SS) is equivalent to EEEENNNNSSSS.
 
-Since the planet is a torus, the first and last columns are adjacent, so moving east from column 10<sup>9<\sup> will move the rover to column 1 and moving south from row 10<sup>9<\sup> will move the rover to row 1. Similarly, moving west from column 1 will move the rover to column 10<sup>9<\sup> and moving north from row 1 will move the rover to row 10<sup>9<\sup>. Given a program that the robot will execute, determine the final position of the robot after it has finished all its movements.
+Since the planet is a torus, the first and last columns are adjacent, so moving east from column 10<sup>9<\sup> will move the rover to column 1 and moving south from row 10<sup>9</sup> will move the rover to row 1. Similarly, moving west from column 1 will move the rover to column 10<sup>9</sup> and moving north from row 1 will move the rover to row 10<sup>9</sup>. Given a program that the robot will execute, determine the final position of the robot after it has finished all its movements.
 
 **Input**
 
@@ -37,7 +37,7 @@ The string represents a valid program.<br/>
 The length of each program is between 1 and 2000 characters inclusive.
 
 Test Set 1<br/>
-The total number of moves the robot will make in a single test case is at most 10<sup>4<\sup>.
+The total number of moves the robot will make in a single test case is at most 10<sup>4</sup>.
 
 Test Set 2<br/>
 No additional constraints.
@@ -61,7 +61,7 @@ Case #4: 3 999999995
   
 In Sample Case #1, the rover moves three units south, then three units east.
 
-In Sample Case #2, the rover moves one unit north. Since the planet is a torus, this moves it into row 10<sub>9<\sub>.
+In Sample Case #2, the rover moves one unit north. Since the planet is a torus, this moves it into row 10<sub>9</sup>.
 
 In Sample Case #3, the program given to the rover is equivalent to NSSSNEEN.
 

@@ -32,7 +32,7 @@ Time limit: 20 seconds.<br/>
 Test Set 2
 
 Time limit: 40 seconds.<br/>
-1 ≤ |S| ≤ 105.
+1 ≤ |S| ≤ 10<sup>5</sup>.
 
 **Sample**
 

@@ -9,10 +9,10 @@ def combination_lock(maximum, initial):
         target = initial[i]
         for j in range(i):
             temp = initial[j]
-            temp_sum += min(target-temp, maximum - target + temp)
+            temp_sum += min(target - temp, maximum - target + temp)
         for j in range(i+1, length):
             temp = initial[j]
-            temp_sum += min(temp-target, maximum - temp + target)
+            temp_sum += min(temp - target, maximum - temp + target)
         if temp_sum < result:
             result = temp_sum
         temp_sum = 0
